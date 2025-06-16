@@ -1,0 +1,60 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: url('precision-ticking-luxurious-chrome-stopwatch-design-generated-by-ai.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px 25px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 320px;
+  max-width: 90%;
+}
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+input, button {
+  padding: 10px;
+  margin: 8px 0;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+input {
+  background-color: #f0f0f0;
+}
+button {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #0056b3;
+}
+#result {
+  margin-top: 20px;
+}
+#locationName {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+#time {
+  font-size: 16px;
+  color: #555;
+  margin-top: 6px;
+}
